@@ -37,7 +37,6 @@ app.post('/todos', (req, res) => {
         title: req.body.title,
         content: req.body.content
     }
-
     // append our new todo to the todos array
     todos.push(newTodo)
 
